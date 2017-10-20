@@ -10,3 +10,7 @@ bazel-out
 bazel-testlogs
 # python
 *.pyc
+# Buck
+.buckconfig.local
+buck-out/
+.buckd/
