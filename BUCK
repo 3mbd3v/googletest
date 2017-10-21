@@ -24,6 +24,9 @@ cxx_library(
         excludes = [
             'googletest/include/internal/**/*.h',
     ]),
+    exported_deps = [
+        ':gtest-pthread',
+    ],
     visibility = [
         '//googletest:gtest',
         '//googletest:gmock',
